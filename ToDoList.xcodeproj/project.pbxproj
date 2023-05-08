@@ -32,6 +32,7 @@
 		ED6E5BCE2A025E1900F3D133 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6E5BCD2A025E1900F3D133 /* ToDoListItemViewViewModel.swift */; };
 		EDFA6ADE2A02C35A00F4D0E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA6ADD2A02C35A00F4D0E6 /* HeaderView.swift */; };
 		EDFA6AE02A04056900F4D0E6 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA6ADF2A04056900F4D0E6 /* TLButton.swift */; };
+		EDFA6AE22A08F73100F4D0E6 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA6AE12A08F73100F4D0E6 /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		ED6E5BCD2A025E1900F3D133 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		EDFA6ADD2A02C35A00F4D0E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EDFA6ADF2A04056900F4D0E6 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		EDFA6AE12A08F73100F4D0E6 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				ED6E5B962A0254C200F3D133 /* ToDoListApp.swift */,
 				ED6E5B9A2A0254C300F3D133 /* Assets.xcassets */,
 				ED6E5BAB2A02594D00F3D133 /* GoogleService-Info.plist */,
+				EDFA6AE12A08F73100F4D0E6 /* extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				ED6E5BCA2A025E0600F3D133 /* LoginViewViewModel.swift in Sources */,
 				ED6E5B972A0254C200F3D133 /* ToDoListApp.swift in Sources */,
 				ED6E5BC02A025DB400F3D133 /* ToDoListItem.swift in Sources */,
+				EDFA6AE22A08F73100F4D0E6 /* extensions.swift in Sources */,
 				ED6E5BB62A025D3300F3D133 /* NewItemView.swift in Sources */,
 				EDFA6AE02A04056900F4D0E6 /* TLButton.swift in Sources */,
 				ED6E5BC82A025DFD00F3D133 /* NewItemViewViewModel.swift in Sources */,

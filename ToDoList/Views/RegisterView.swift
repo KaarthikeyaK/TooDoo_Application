@@ -15,6 +15,12 @@ struct RegisterView: View {
         VStack{
             HeaderView(title: "Register", subtitle: "Start organizing todos", background: .orange)
             
+            if !viewModel.errorMessage.isEmpty {
+                Text(viewModel.errorMessage)
+                    .foregroundColor(Color.red)
+                    .font(.custom("Futura", size: 20))
+            }
+            
             Form{
                 TextField("Full Name", text: $viewModel.name)
                     .textFieldStyle(DefaultTextFieldStyle())
@@ -34,7 +40,7 @@ struct RegisterView: View {
 
             
             TLButton(title: "Create Account", background: .green) {
-                // Attempt Registration
+                viewModel.register()
             }
             
             Spacer()
