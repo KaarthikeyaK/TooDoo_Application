@@ -20,6 +20,7 @@ class RegisterViewViewModel: ObservableObject {
     }
         
     func register(){
+
         guard validate() else {
             return
         }
