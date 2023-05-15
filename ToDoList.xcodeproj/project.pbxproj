@@ -33,6 +33,7 @@
 		EDFA6ADE2A02C35A00F4D0E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA6ADD2A02C35A00F4D0E6 /* HeaderView.swift */; };
 		EDFA6AE02A04056900F4D0E6 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA6ADF2A04056900F4D0E6 /* TLButton.swift */; };
 		EDFA6AE22A08F73100F4D0E6 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA6AE12A08F73100F4D0E6 /* extensions.swift */; };
+		EDFA6AE42A129FC900F4D0E6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFA6AE32A129FC900F4D0E6 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		EDFA6ADD2A02C35A00F4D0E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EDFA6ADF2A04056900F4D0E6 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		EDFA6AE12A08F73100F4D0E6 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		EDFA6AE32A129FC900F4D0E6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				ED6E5B9A2A0254C300F3D133 /* Assets.xcassets */,
 				ED6E5BAB2A02594D00F3D133 /* GoogleService-Info.plist */,
 				EDFA6AE12A08F73100F4D0E6 /* extensions.swift */,
+				EDFA6AE32A129FC900F4D0E6 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				ED6E5B9E2A0254C300F3D133 /* Preview Assets.xcassets in Resources */,
 				ED6E5B9B2A0254C300F3D133 /* Assets.xcassets in Resources */,
+				EDFA6AE42A129FC900F4D0E6 /* Launch Screen.storyboard in Resources */,
 				ED6E5BAC2A02594D00F3D133 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = m;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -429,7 +433,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = m;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
